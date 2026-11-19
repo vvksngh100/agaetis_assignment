@@ -1,0 +1,58 @@
+.form{
+  width: 80vh;
+  margin: 20px auto;
+  background-color: rgb(238, 241, 241);
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.form-group{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.form-group label{
+  display: block;
+  margin-top: 10px;
+}
+
+.form-group input{
+  padding: 5px;
+  height: 1.5rem;
+}
+
+.form button{
+  margin-top: 20px;
+  width: 100%;
+  height: 2.5rem;
+  border: 2px solid rgb(24, 24, 196);
+  border-radius: 5px;
+  background-color: rgb(24, 24, 196);
+  color: white;
+  cursor: pointer;
+}
+
+.emp-list {
+  width: 40vw;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.emp-list table{
+  border-collapse: collapse; 
+}
+
+.emp-list table th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.emp-list table tr button{
+  height: 2rem;
+  background-color: blueviolet;
+  cursor: pointer; 
+}
